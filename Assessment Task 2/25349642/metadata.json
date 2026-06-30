@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-03-30T18:24:49.317399Z",
+  "student_info": {
+    "student_id": "25349642",
+    "first_name": "Saahil",
+    "last_name": "Karyekar",
+    "email": "Saahil.Karyekar@student.uts.edu.au"
+  },
+  "image_classification": {
+    "ic_animal_dataset": "Dogs",
+    "ic_num_classes": 10,
+    "ic_selected_classes": [
+      "Appenzeller",
+      "Walker_hound",
+      "collie",
+      "Leonberg",
+      "pug",
+      "Sealyham_terrier",
+      "toy_terrier",
+      "Great_Dane",
+      "Mexican_hairless",
+      "Bouvier_des_Flandres"
+    ]
+  },
+  "object_detection": {
+    "od_dataset": "Aerial_Maritime_Detection",
+    "od_formats": [
+      "coco",
+      "pascal",
+      "yolo"
+    ],
+    "od_train_split": 0.7,
+    "od_valid_split": 0.15,
+    "od_test_split": 0.15
+  }
+}
